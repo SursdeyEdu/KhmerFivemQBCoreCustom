@@ -1,10 +1,10 @@
 /* Nice font for button from Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor&display=swap');
 * {
     padding: 0;
     margin: 0;
-    font-family: "Poppins", sans-serif !important;
+    font-family: 'Kdam Thmor', sans-serif;
     font-weight: 300;
 }
 

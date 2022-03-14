@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor&display=swap');
 
 h1 {
     font-weight: normal;
@@ -71,9 +71,9 @@ svg.menu > g.sector > path {
 
 svg.menu > g.sector > text,
 svg.menu > g.sector > use {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Kdam Thmor', sans-serif;
     margin-top: 5px;
-    font-size: 2.8px;
+    font-size: 3.3px;
     letter-spacing: 0.2px;
     text-transform: uppercase;
     cursor: pointer;

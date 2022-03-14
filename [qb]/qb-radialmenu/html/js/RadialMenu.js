@@ -154,7 +154,6 @@ RadialMenu.prototype.createCenter = function (svg, title, icon, size) {
     size = size || 8;
     var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
     g.setAttribute('class', 'center');
-
     var centerCircle = self.createCircle(0, 0, self.innerRadius - self.sectorSpace);
     g.appendChild(centerCircle);
     if (text) {

@@ -1,26 +1,26 @@
 local Translations = {
     error = {
-        to_far_from_door = 'You are to far away from the Doorbell',
-        nobody_home = 'There is nobody home..',
+        to_far_from_door = 'អ្នកនៅឆ្ងាយពីកណ្ដឹងទ្វា',
+        nobody_home = 'គ្មានមនុស្សនៅផ្ទះទេ..',
     },
     success = {
-        receive_apart = 'You got a apartment',
-        changed_apart = 'You moved apartments',
+        receive_apart = 'អ្នកទទួលផ្ទះល្វែង',
+        changed_apart = 'អ្នកបានផ្លាស់ទីលំនៅ',
     },
     info = {
-        at_the_door = 'Someone is at the door!',
+        at_the_door = 'មានមនុស្សនៅមាត់ទ្វា!',
     },
     text = {
-        enter = 'Enter Apartment',
-        ring_doorbell = 'Ring Doorbell',
-        logout = 'Logout Character',
-        change_outfit = 'Change Outfit',
-        open_stash = 'Open Stash',
-        move_here = 'Move Here',
-        open_door = 'Open Door',
-        leave = 'Leave Apartment',
-        close_menu = '⬅ Close Menu',
-        tennants = 'Tennants',
+        enter = 'ចូលផ្ទះល្វែង',
+        ring_doorbell = 'ចុចកណ្ដឹងទ្វា',
+        logout = 'ចាកចេញពីតួអង្គនេះ',
+        change_outfit = 'ប្ដូឆុតសំលៀកបំពាក',
+        open_stash = 'បើកទូ',
+        move_here = 'ដាក់ទីនេះ',
+        open_door = 'បើកទ្វា',
+        leave = 'ចេញពីផ្ទះ',
+        close_menu = '⬅ បិទមីនុយ',
+        tennants = 'អ្នកជួល',
     },
 }
 
