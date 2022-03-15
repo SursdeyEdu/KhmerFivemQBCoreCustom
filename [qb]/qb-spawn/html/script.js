@@ -31,7 +31,7 @@ $(document).on('click', '.location', function(evt){
     var type = $(this).data('type'); //get the text
     var label = $(this).data('label'); //get the text
     if (type !== "lab") {
-        $("#spawn-label").html("Confirm")
+        $("#spawn-label").html("ចាប់ផ្ដើម")
         $("#submit-spawn").attr("data-location", location);
         $("#submit-spawn").attr("data-type", type);
         $("#submit-spawn").fadeIn(100)
@@ -71,10 +71,10 @@ function setupLocations(locations, myHouses) {
     var parent = $('.spawn-locations')
     $(parent).html("");
 
-    $(parent).append('<div class="loclabel" id="location" data-location="null" data-type="lab" data-label="Where would you like to start?"><p><span id="null">Where would you like to start?</span></p></div>')
+    $(parent).append('<div class="loclabel" id="location" data-location="null" data-type="lab" data-label="Where would you like to start?"><p><span id="null">ស្វាគមន៍</span></p></div>')
     
     setTimeout(function(){
-        $(parent).append('<div class="location" id="location" data-location="current" data-type="current" data-label="Last Location"><p><span id="current-location">Last Location</span></p></div>');
+        $(parent).append('<div class="location" id="location" data-location="current" data-type="current" data-label="Last Location"><p><span id="current-location">ទីតាំងចុងក្រោយ</span></p></div>');
         
         $.each(locations, function(index, location){
             $(parent).append('<div class="location" id="location" data-location="'+location.location+'" data-type="normal" data-label="'+location.label+'"><p><span id="'+location.location+'">'+location.label+'</span></p></div>')

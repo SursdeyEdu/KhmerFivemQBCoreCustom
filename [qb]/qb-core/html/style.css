@@ -3,6 +3,7 @@
     border-radius: 10px;
     box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     border-left: 0.5rem solid #20bb44;
+    z-index: 88;
 }
 
 .primary {
@@ -10,6 +11,7 @@
     border-radius: 10px;
     box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     border-left: 5px solid #1c75d2;
+    z-index: 88;
 }
 
 .error {
@@ -17,6 +19,7 @@
     border-radius: 10px;
     box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     border-left: 5px solid #c10114;
+    z-index: 88;
 }
 
 .police {
@@ -24,6 +27,7 @@
     border-radius: 10px;
     box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     border-left: 5px solid #2197f2;
+    z-index: 88;
 }
 
 .ambulance {
@@ -31,4 +35,5 @@
     border-radius: 10px;
     box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     border-left: 5px solid #f44236;
+    z-index: 88;
 }

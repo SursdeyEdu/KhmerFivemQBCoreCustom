@@ -53,12 +53,12 @@ body::-webkit-scrollbar {
     border-radius: 0.15rem;
     display: flex;
     flex-direction: column;
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
+    box-shadow: 0rem 0rem 0.1rem 0.05rem #ededed;
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: #dc143c;
+    background-color: #3c3c44;
 }
 
 .title {

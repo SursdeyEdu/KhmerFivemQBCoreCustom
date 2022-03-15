@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 description 'QB-Interior'
-version '1.0.0'
+version '1.1.0'
 
 this_is_a_map 'yes'
 
@@ -12,8 +12,7 @@ client_scripts {
 }
 
 files {
-	'stream/defaultshells/shellprops.ytyp',
-	'stream/startingapt/shellpropsv11.ytyp',
+	'starter_shells_k4mb1.ytyp',
 	-- 'stream/ClassicHouseShells/shellpropsv19.ytyp',
 	-- 'stream/DeluxeHousingShells/shellpropsv2.ytyp',
 	-- 'stream/FurnishedHousingShells/shellpropsv11.ytyp',
@@ -36,8 +35,7 @@ files {
 }
 
 -- Default (included)
-data_file 'DLC_ITYP_REQUEST' 'stream/defaultshells/shellprops.ytyp'
-data_file 'DLC_ITYP_REQUEST' 'stream/startingapt/shellpropsv11.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'starter_shells_k4mb1.ytyp'
 -- Classic
 -- data_file 'DLC_ITYP_REQUEST' 'stream/ClassicHouseShells/shellpropsv19.ytyp'
 -- -- Deluxe

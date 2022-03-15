@@ -7,7 +7,7 @@
 
     position: absolute;
     right: calc(2.77vh);
-    top: calc(50% - (var(--size) / 2));
+    top: calc(70% - (var(--size) / 2));
     height: var(--size) !important;
 
     background: inherit !important;
