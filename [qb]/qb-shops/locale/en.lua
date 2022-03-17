@@ -1,13 +1,13 @@
 local Translations = {
     info = {
-        interact = "~g~E~w~ - Shop"
+        interact = "~g~E~w~ - បញ្ជីទិញ"
     },
     error = {
-        dealer_decline = "The dealer declines to show you firearms",
-        talk_cop = "Speak with law enforcement to get a firearms license"
+        dealer_decline = "អ្នកលក់បដិសេដបង្ហាញបញ្ជីអាវុធ!",
+        talk_cop = "សូមទៅយកឯកសារអាជ្ញាប័ណ្ណស្របច្បាប់ចេញពីសមត្ថកិច្ច!"
     },
     success = {
-        dealer_verify = "The dealer verifies your license"
+        dealer_verify = "អ្នកលក់បានបញ្ជាក់អាជ្ញាប័ណ្ណរបស់អ្នក"
     },
 }
 

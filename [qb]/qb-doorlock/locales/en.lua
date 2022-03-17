@@ -9,10 +9,10 @@ local Translations = {
         lockpick_success = "Success"
     },
     general = {
-        locked = "Locked",
-        unlocked = "Unlocked",
-        locked_button = "[E] - Locked",
-        unlocked_button = "[E] - Unlocked",
+        locked = "ជាបសោ",
+        unlocked = "អត់ចាក់សោ",
+        locked_button = "[E] - ចាក់សោ",
+        unlocked_button = "[E] - បើកសោ",
         keymapping_description = "Interact with door locks",
         locked_menu = "Locked",
         pickable_menu = "Lockpickable",

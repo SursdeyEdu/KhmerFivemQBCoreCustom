@@ -2,18 +2,18 @@ QBShared = QBShared or {}
 QBShared.ForceJobDefaultDutyAtLogin = true -- true: Force duty state to jobdefaultDuty | false: set duty state from database last saved
 QBShared.Jobs = {
 	['unemployed'] = {
-		label = 'Civilian',
+		label = 'ប្រជាជន',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Freelancer',
+                name = 'គ្មាន​ការងារ​ធ្វើ',
                 payment = 10
             },
         },
 	},
 	['police'] = {
-		label = 'Law Enforcement',
+		label = 'បូលិស',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -41,7 +41,7 @@ QBShared.Jobs = {
         },
 	},
 	['ambulance'] = {
-		label = 'EMS',
+		label = 'ពេទ្យ',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -69,7 +69,7 @@ QBShared.Jobs = {
         },
 	},
 	['realestate'] = {
-		label = 'Real Estate',
+		label = 'អចលន​ទ្រព្យ',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -97,7 +97,7 @@ QBShared.Jobs = {
         },
 	},
 	['taxi'] = {
-		label = 'Taxi',
+		label = 'អ្នករត់ឡាន',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -125,7 +125,7 @@ QBShared.Jobs = {
         },
 	},
      ['bus'] = {
-		label = 'Bus',
+		label = 'អ្នកបើឡានក្រុង',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -136,7 +136,7 @@ QBShared.Jobs = {
 		},
 	},
 	['cardealer'] = {
-		label = 'Vehicle Dealer',
+		label = 'អ្នកលក់យានយន្ត',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -164,7 +164,7 @@ QBShared.Jobs = {
         },
 	},
 	['mechanic'] = {
-		label = 'Mechanic',
+		label = 'ជាងរថយន្ត',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -192,7 +192,7 @@ QBShared.Jobs = {
         },
 	},
 	['judge'] = {
-		label = 'Honorary',
+		label = 'ចៅក្រម',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -203,7 +203,7 @@ QBShared.Jobs = {
         },
 	},
 	['lawyer'] = {
-		label = 'Law Firm',
+		label = 'មេធាវី',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -214,7 +214,7 @@ QBShared.Jobs = {
         },
 	},
 	['reporter'] = {
-		label = 'Reporter',
+		label = 'អ្នកយកព័ត៌មាន',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -236,7 +236,7 @@ QBShared.Jobs = {
         },
 	},
 	['tow'] = {
-		label = 'Towing',
+		label = 'អ្នកអូសរថយន្ត',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -247,7 +247,7 @@ QBShared.Jobs = {
         },
 	},
 	['garbage'] = {
-		label = 'Garbage',
+		label = 'សំអាតបរិស្ថាន',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
@@ -269,7 +269,7 @@ QBShared.Jobs = {
         },
 	},
 	['hotdog'] = {
-		label = 'Hotdog',
+		label = 'អ្នកលក់',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
